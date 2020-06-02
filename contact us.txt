@@ -1,0 +1,47 @@
+<div>
+        <h3 class="text-center">CONTACT US!!!</h3>
+        <p style="font-size: large; text-align: center; color: black;"><b>Our Website-</b> www.acupace.in<br><b>Email us-</b>info@acupace.in<br>
+           <b>Mobile no-</b>91+7086880195, 9654165988<br><b>Address-</b>Fifth floor,CDC building,
+            AIC–<br>Mahamana Foundation for Innovation<br>and Entrepreneurship
+             IM- BHU<br>(AIC-MFIE-IM-BHU),Banaras Hindu University,<br>
+              Varanasi. U.P India
+        </p><br><br>
+</div>        
+        <app-card [options]="false">
+          <h5>Contact Me!</h5>
+          <hr>
+          <form action="javascript:">
+               
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-3 col-form-label">Name :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputPassword3" placeholder="Your Name">
+                  </div>
+                </div>
+              
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-3 col-form-label">Email:</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputPassword3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-3 col-form-label">Phone no :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputPassword3" placeholder="Phone no">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-3 col-form-label">Message :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputPassword3" placeholder="Message">
+                  </div>
+                </div>
+          <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </div>
+                </div>
+              </form>
+      </app-card>
+         
